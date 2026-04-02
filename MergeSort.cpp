@@ -96,9 +96,17 @@ void mergeSort(int low, int high){
 void output()
 {
     cout << "\nData setelah diurutkan (Merge Sort): ";
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++) // Loop untuk menampilkan elemen-elemen array yang sudah diurutkan
     {
         cout << arr[i] << " ";
     }
     cout << endl;
+}
+
+// Fungsi utama untuk menjalankan program
+int main()
+{
+    input();
+    mergeSort(0, n - 1);
+    output();
 }
