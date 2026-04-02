@@ -36,6 +36,13 @@ void input(){
 }
 
 // Membuat fungsi mergesort
-void mergeSort(){
+void mergeSort(int low, int high){
+    // jika low lebih besar atau sama dengan high, berarti sudah tidak ada elemen yang perlu diurutkan
+    if (low >= high){
+        return;
+    }
 
+    
+
+    
 }
