@@ -45,4 +45,13 @@ void mergeSort(int low, int high){
     // Menghitung indeks tengah untuk membagi array menjadi dua bagian
     int mid = (low + high) / 2;
     
+    // Memanggil fungsi mergeSort
+    mergeSort(low, mid);
+    mergeSort(mid + 1, high);
+
+    // Proses penggabungan (merge) dua bagian array yang sudah diurutkan
+    int i = low;
+    int j = mid + 1;
+    int k = low;
+    
 }
