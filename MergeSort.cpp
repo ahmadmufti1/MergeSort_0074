@@ -42,7 +42,7 @@ void mergeSort(int low, int high){
         return;
     }
 
-    
-
+    // Menghitung indeks tengah untuk membagi array menjadi dua bagian
+    int mid = (low + high) / 2;
     
 }
