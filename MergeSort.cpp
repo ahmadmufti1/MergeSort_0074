@@ -53,5 +53,21 @@ void mergeSort(int low, int high){
     int i = low;
     int j = mid + 1;
     int k = low;
+
+    // Loop untuk membandingkan elemen-elemen dari kedua bagian array dan menggabungkannya ke dalam array sementara B
+    while (i <= mid && j <= high)
+        {
+            if(arr[i <= arr[j]])
+            {
+                B[k] = arr[i];
+                i++;
+            }
+            else{
+                B[k] = arr[j];
+                j++;
+            }
+            k++;
+        }
+    
     
 }
