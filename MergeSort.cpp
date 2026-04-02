@@ -77,4 +77,12 @@ void mergeSort(int low, int high){
         k = k + 1;
     }
     
+    // Jika masih ada elemen di bagian kiri yang belum diproses, tambahkan ke array sementara B
+    while (i <= mid)
+    {
+        B[k] = arr[i];
+        i++;
+        k++;
+    }
+
 }
