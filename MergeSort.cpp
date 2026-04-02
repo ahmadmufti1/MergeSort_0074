@@ -85,4 +85,9 @@ void mergeSort(int low, int high){
         k++;
     }
 
+    // Salin kembali elemen-elemen yang sudah diurutkan dari array sementara B ke array utama arr
+    for (int x = low; x <= high; x++)
+    {
+        arr[x] = B[x];
+    }
 }
