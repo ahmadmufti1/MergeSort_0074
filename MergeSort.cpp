@@ -91,3 +91,14 @@ void mergeSort(int low, int high){
         arr[x] = B[x];
     }
 }
+
+// Fungsi untuk menampilkan hasil pengurutan
+void output()
+{
+    cout << "\nData setelah diurutkan (Merge Sort): ";
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
