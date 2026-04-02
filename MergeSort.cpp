@@ -34,3 +34,8 @@ void input(){
         cin >> arr[i];
     }
 }
+
+// Membuat fungsi mergesort
+void mergeSort(){
+
+}
