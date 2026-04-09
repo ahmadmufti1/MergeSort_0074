@@ -24,8 +24,8 @@ void input(){
         }
     }
     cout << "\n--------------------------" << endl;
-    cout << "\nInputkan Isi Element Array" << endl;;
-    cout << "\n--------------------------" << endl;;
+    cout << "\nInputkan Isi Element Array" << endl;
+    cout << "\n--------------------------" << endl;
     
     // Loop untuk menginput elemen-elemen array
     for (int i = 0; i < n; i++)
@@ -57,7 +57,7 @@ void mergeSort(int low, int high){
     // Loop untuk membandingkan elemen-elemen dari kedua bagian array dan menggabungkannya ke dalam array sementara B
     while (i <= mid && j <= high)
         {
-            if(arr[i <= arr[j]])
+            if(arr[i] <= arr[j])
             {
                 B[k] = arr[i];
                 i++;
